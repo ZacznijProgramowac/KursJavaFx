@@ -7,10 +7,10 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 /**
- * JavaFx kurs od podstaw - kontener Border Pane #16
+ * JavaFx kurs od podstaw - Propeties #17
  * 
  * @author ZacznijProgramowac </br>
- *         https://www.youtube.com/watch?v=2lA5Gv6kPVo
+ *         https://www.youtube.com/watch?v=gPAitx3fXS0
  */
 public class Main extends Application {
 
