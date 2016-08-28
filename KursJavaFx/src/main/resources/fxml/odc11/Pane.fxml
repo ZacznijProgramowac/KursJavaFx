@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+  
+   <children>
+      <TextField layoutX="63.0" layoutY="93.0" prefHeight="25.0" prefWidth="184.0" />
+      <TextField layoutX="63.0" layoutY="153.0" prefHeight="25.0" prefWidth="184.0" />
+      <Label layoutX="63.0" layoutY="76.0" text="Login" />
+      <Label layoutX="63.0" layoutY="136.0" text="Hasło" />
+      <Button layoutX="195.0" layoutY="211.0" mnemonicParsing="false" text="Zaloguj" />
+      <CheckBox layoutX="63.0" layoutY="192.0" mnemonicParsing="false" text="Zapamiętaj" />
+   </children>
+</Pane>

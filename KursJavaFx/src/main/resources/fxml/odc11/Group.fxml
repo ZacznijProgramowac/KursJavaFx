@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+
+
+<Group xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="63.0" layoutY="76.0" text="Login" />
+      <TextField layoutX="63.0" layoutY="93.0" prefHeight="25.0" prefWidth="184.0" />
+      <Label layoutX="63.0" layoutY="136.0" text="Label" />
+      <TextField layoutX="63.0" layoutY="153.0" prefHeight="25.0" prefWidth="184.0" />
+      <CheckBox layoutX="63.0" layoutY="192.0" mnemonicParsing="false" text="CheckBox" />
+      <Button layoutX="195.0" layoutY="211.0" mnemonicParsing="false" text="Button" />
+   </children>
+</Group>

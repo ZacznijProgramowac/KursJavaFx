@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="odc09.podsumowanie.OptionsController">
+   <children>
+      <ColorPicker layoutX="60.0" layoutY="137.0" />
+      <DatePicker layoutX="253.0" layoutY="150.0" />
+      <ChoiceBox layoutX="202.0" layoutY="294.0" prefWidth="150.0" />
+      <Button layoutX="427.0" layoutY="211.0" mnemonicParsing="false" text="Button" />
+      <Label layoutX="263.0" layoutY="36.0" text="Options" />
+      <Button layoutX="274.0" layoutY="354.0" mnemonicParsing="false" onAction="#backMenu" text="Menu" />
+   </children>
+</Pane>

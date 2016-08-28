@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<FlowPane alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="346.0" prefWidth="227.0" rowValignment="TOP" vgap="20.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="42.0" prefWidth="198.0">
+         <children>
+            <Label text="Label" />
+            <TextField prefHeight="25.0" prefWidth="97.0" />
+         </children>
+      </VBox>
+      <VBox>
+         <children>
+            <Label text="Label" />
+            <TextField />
+         </children>
+      </VBox>
+      <VBox spacing="10.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="CheckBox" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</FlowPane>
