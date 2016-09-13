@@ -1,4 +1,4 @@
-package odc18.binding;
+package odc19.przyklad.bindowanie;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -20,7 +20,7 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/fxml/odc18/Binding.fxml"));
+		FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/fxml/odc19/Binding.fxml"));
 		Pane pane = loader.load();
 		Scene scene = new Scene(pane);
 		Stage stage = new Stage();
