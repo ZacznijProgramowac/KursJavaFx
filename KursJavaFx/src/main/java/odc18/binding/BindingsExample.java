@@ -14,6 +14,12 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+/**
+ * JavaFx kurs od podstaw - Bindowanie properties w JavaFx #18
+ * 
+ * @author ZacznijProgramowac </br>
+ *         https://www.youtube.com/watch?v=R9M-qCiguvk
+ */
 public class BindingsExample {
 
 	public static void main(String[] args) {

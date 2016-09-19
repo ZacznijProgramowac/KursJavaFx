@@ -1,4 +1,4 @@
-package odc19.przyklad.bindowanie;
+package odc20.listener;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,10 +7,10 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 /**
- * JavaFx kurs od podstaw - Bindowanie properties - przykład #19
+ * JavaFx kurs od podstaw - Listeners #20
  * 
- * @author ZacznijProgramowac </br>
- *         https://www.youtube.com/watch?v=2QbOaxVJo0E
+ * @author ZacznijProgramowac https://youtu.be/IQAPfQqbd8c</br>
+ * 
  */
 public class Main extends Application {
 
@@ -20,12 +20,12 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/fxml/odc19/Binding.fxml"));
+		FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/fxml/odc20/ListenerExample.fxml"));
 		Pane pane = loader.load();
 		Scene scene = new Scene(pane);
 		Stage stage = new Stage();
 		stage.setScene(scene);
-		stage.setTitle("Przykład properties");
+		stage.setTitle("Przykład Listener");
 		stage.setResizable(false);
 		stage.show();
 	}
