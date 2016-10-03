@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="341.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="odc21.observable.list.Controller">
+   <children>
+      <ComboBox fx:id="comboBox" prefWidth="150.0" />
+      <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="222.0" spacing="10.0">
+         <children>
+            <Label prefWidth="50.0" text="Imię" />
+            <TextField fx:id="nameTextField" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="39.0" prefWidth="186.0" spacing="10.0">
+         <children>
+            <Label text="Naziwsko" />
+            <TextField fx:id="surnameTextField" />
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Button fx:id="addButton" mnemonicParsing="false" onAction="#addPerson" text="Dodaj" />
+            <Button fx:id="removeButton" mnemonicParsing="false" onAction="#deletePerson" text="Usuń" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+</VBox>
