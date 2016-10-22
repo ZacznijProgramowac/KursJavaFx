@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="odc22.include.fxml.MainController">
+   <children>
+      <TabPane layoutY="7.0" prefHeight="394.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Main">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="268.0" layoutY="135.0" mnemonicParsing="false" onAction="#change" text="Button" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+          <Tab text="Tab1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <fx:include source="Tab1.fxml" fx:id="tab1"/>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Tab2">
+               <content>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <fx:include source="Tab2.fxml" fx:id="tab2"/>
+                     </children>
+                  </HBox>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
